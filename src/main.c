@@ -1,4 +1,4 @@
-#include "../include/sequlist.h"
+#include "list/sequlist.h"
 
 int main(){
     seqlist_test();

@@ -1,4 +1,4 @@
-#include "../../include/sequlist.h"
+#include "list/sequlist.h"
 
 void init(sequence_list *slt){
     slt -> size = 0;
