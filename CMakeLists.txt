@@ -11,4 +11,6 @@ add_executable(Data_Structures_C_Language_Edition
         src/testDemo/seqlist_test.c
         src/main.c
         include/list/seqstack.h
-        src/list/seqstack.c)
+        src/list/seqstack.c
+        include/list/seqqueue.h
+        src/list/seqqueue.c)
