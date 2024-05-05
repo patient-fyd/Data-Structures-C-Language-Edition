@@ -39,11 +39,30 @@ int insert(sequnence_queue *sq, datatype x) {
     return 0;
 }
 
-int dele(sequnence_queue *sq){
+int dele(sequnence_queue *sq) {
     if (empty(*sq)) {
         printf("队列为空，无法删除\n");
         return -1;
     }
     sq->front++;
+    return 0;
+}
+
+int insert_sequence_cqueue(sequnence_queue *sq, datatype x) {
+    if ((sq->rear + 1) % MAXSIZE == sq->front) {
+        printf("队列已满，无法插入\n");
+        return -1;
+    }
+    sq->a[sq->rear] = x;
+    sq->rear = (sq->rear + 1) % MAXSIZE;
+    return 0;
+}
+
+int delete_sequence_cqueue(sequnence_queue *sq) {
+    if (sq->front == sq->rear) {
+        printf("队列为空，无法删除\n");
+        return -1;
+    }
+    sq->front = (sq->front + 1) % MAXSIZE;
     return 0;
 }
