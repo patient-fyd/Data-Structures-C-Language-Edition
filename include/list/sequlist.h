@@ -1,3 +1,11 @@
+//
+//  sequlist.h
+//  include\list
+//  顺序表的实现
+//  ADT: sequence_list{init,append,display,find,get,insert,delete}
+//
+//  Created by patient.fyd@gmail
+
 #include <stdio.h>
 #include <stdlib.h>
 

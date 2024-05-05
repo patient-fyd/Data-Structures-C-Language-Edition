@@ -1,3 +1,11 @@
+//
+//  seqqueue.h
+//  include\list
+//  队列的实现
+//  ADT: sequence_queue{init,empty,display,get,insert,dele}
+//
+//  Created by patient.fyd@gmail
+
 #include <stdio.h>
 
 #define MAXSIZE 100

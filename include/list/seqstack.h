@@ -1,3 +1,11 @@
+//
+//  seqstack.h
+//  include\list
+//  栈的实现
+//  ADT: sequence_stack{init,empty,read,push,pop}
+//
+//  Created by patient.fyd@gmail
+
 #include <stdio.h>
 #include <stdlib.h>
 
