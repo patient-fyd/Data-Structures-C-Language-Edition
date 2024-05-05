@@ -51,3 +51,22 @@ void display(sequnence_queue sq);
 datatype get_front(sequnence_queue sq);
 
 
+/**
+ * 函数名称: insert
+ * 实现文件名: seqqueue.c
+ * 功能描述: 队列的插入操作
+ * @param 指向seqque的指针sq
+ * @param datatype类型的数据x
+ * @return:  返回0表示插入成功，返回-1表示插入失败
+ */
+int insert(sequnence_queue *sq, datatype x);
+
+
+/**
+ * 函数名称: dele
+ * 实现文件名: seqqueue.c
+ * 功能描述: 队列的删除操作
+ * @param 指向seqque的指针sq
+ * @return:  删除成功返回0，删除失败返回-1
+ */
+int dele(sequnence_queue *sq);
