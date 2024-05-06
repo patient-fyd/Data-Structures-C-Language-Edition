@@ -8,15 +8,16 @@ include_directories(include)
 add_executable(Data_Structures_C_Language_Edition
         include/list/sequenceList.h
         src/list/sequenceList.c
-        src/testDemo/seqlist_test.c
+        src/testDemo/sequenceList_test.c
         src/main.c
-        include/list/seqstack.h
-        src/list/seqstack.c
-        include/list/seqqueue.h
-        src/list/seqqueue.c
+        include/list/sequenceStack.h
+        src/list/sequenceStack.c
+        include/list/sequenceQueue.h
+        src/list/sequenceQueue.c
         include/list/slnklist.h
         src/list/slnklist.c
         include/list/hlnklist.h
         src/list/hlnklist.c
         src/testDemo/hlnklist_test.c
+        src/testDemo/sequenceStack_test.c
 )

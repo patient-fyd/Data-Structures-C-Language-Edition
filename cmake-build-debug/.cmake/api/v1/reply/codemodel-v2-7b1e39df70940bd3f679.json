@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Data_Structures_C_Language_Edition::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Data_Structures_C_Language_Edition-Debug-93b7a3231183ac41d3ac.json",
+					"jsonFile" : "target-Data_Structures_C_Language_Edition-Debug-c054a8f745adf90fbc22.json",
 					"name" : "Data_Structures_C_Language_Edition",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/code/Data-Structures-C-Language-Edition/cmake-build-debug-event-trace",
+		"build" : "C:/code/Data-Structures-C-Language-Edition/cmake-build-debug",
 		"source" : "C:/code/Data-Structures-C-Language-Edition"
 	},
 	"version" : 
