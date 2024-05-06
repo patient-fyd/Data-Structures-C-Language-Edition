@@ -1,5 +1,9 @@
 # ninja log v5
-10	82	7360652341325387	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/main.c.obj	bf3fa8c584bbc3d3
-2	59	7360655044046103	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/testDemo/seqlist_test.c.obj	95a73daef9270e34
-2	95	7360652341475382	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/sequlist.c.obj	ceddf59080f09345
-59	125	7360655044683998	Data_Structures_C_Language_Edition.exe	10f0590208b94a60
+8	99	7366806609856121	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/seqstack.c.obj	2db1da2664fc3f88
+5	104	7366806609836119	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/testDemo/seqlist_test.c.obj	95a73daef9270e34
+1	107	7366806609866124	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/sequenceList.c.obj	43fd1deb33a982e9
+16	111	7366806609946121	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/main.c.obj	bf3fa8c584bbc3d3
+12	118	7366806610036119	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/seqqueue.c.obj	d35e69138be06be4
+25	125	7366806610108364	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/hlnklist.c.obj	4d25ab96f98861a0
+100	169	7366806610558372	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/testDemo/hlnklist_test.c.obj	5e67645038be2839
+104	174	7366806610608356	CMakeFiles/Data_Structures_C_Language_Edition.dir/src/list/slnklist.c.obj	832d3ecf9b45a575

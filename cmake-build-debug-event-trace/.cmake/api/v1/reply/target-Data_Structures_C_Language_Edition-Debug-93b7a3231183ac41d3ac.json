@@ -71,7 +71,9 @@
 				3,
 				5,
 				7,
-				9
+				9,
+				11,
+				12
 			]
 		}
 	],
@@ -111,7 +113,8 @@
 				0,
 				4,
 				6,
-				8
+				8,
+				10
 			]
 		},
 		{
@@ -123,7 +126,9 @@
 				3,
 				5,
 				7,
-				9
+				9,
+				11,
+				12
 			]
 		}
 	],
@@ -131,13 +136,13 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "include/list/sequlist.h",
+			"path" : "include/list/sequenceList.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/list/sequlist.c",
+			"path" : "src/list/sequenceList.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -183,6 +188,23 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/list/slnklist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "include/list/hlnklist.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/list/hlnklist.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/testDemo/hlnklist_test.c",
 			"sourceGroupIndex" : 1
 		}
 	],

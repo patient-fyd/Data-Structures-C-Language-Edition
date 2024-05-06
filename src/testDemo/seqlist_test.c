@@ -1,22 +1,28 @@
-#include "list/sequlist.h"
+#include "list/sequenceList.h"
 
-void seqlist_test() {
-    sequence_list slt;
-    init(&slt);
-    append(&slt, 1);
-    append(&slt, 2);
-    append(&slt, 3);
-    append(&slt, 4);
-    append(&slt, 5);
-    display(slt);
+void SequenceListTest() {
+    SequenceList list;
+    SequenceListInit(&list);
+
+    SequenceListAppend(&list, 1);
+    SequenceListAppend(&list, 2);
+    SequenceListAppend(&list, 3);
+    SequenceListAppend(&list, 4);
+    SequenceListAppend(&list, 5);
+
+    SequenceListDisplay(list);
     printf("\n");
-    int i = find(slt, 5);
-    printf("5的位置是 %d\n", i);
-    int j = get(slt, 3);
-    printf("3的值是 %d\n", j);
-    insert(&slt, 3, 6);
-    display(slt);
+
+    int position = SequenceListFind(list, 5);
+    printf("5的位置是 %d\n", position);
+
+    ElementType value = SequenceListGet(list, 3);
+    printf("3的值是 %d\n", value);
+
+    SequenceListInsert(&list, 3, 6);
+    SequenceListDisplay(list);
     printf("\n");
-    delete(&slt, 0);
-    display(slt);
+
+    SequenceListDelete(&list, 0);
+    SequenceListDisplay(list);
 }

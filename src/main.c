@@ -1,6 +1,6 @@
-#include "list/sequlist.h"
+#include "list/sequenceList.h"
 
 int main(){
-    seqlist_test();
+    SequenceListTest();
     return 0;
 }

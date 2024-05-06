@@ -6,8 +6,8 @@ set(CMAKE_C_STANDARD 11)
 include_directories(include)
 
 add_executable(Data_Structures_C_Language_Edition
-        include/list/sequlist.h
-        src/list/sequlist.c
+        include/list/sequenceList.h
+        src/list/sequenceList.c
         src/testDemo/seqlist_test.c
         src/main.c
         include/list/seqstack.h
@@ -16,4 +16,7 @@ add_executable(Data_Structures_C_Language_Edition
         src/list/seqqueue.c
         include/list/slnklist.h
         src/list/slnklist.c
+        include/list/hlnklist.h
+        src/list/hlnklist.c
+        src/testDemo/hlnklist_test.c
 )
