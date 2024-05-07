@@ -1,9 +1,9 @@
 /**
- * @file slnklist.h
+ * @file singleLinkedList.h
  * @author G3327555
  * @brief 单链表的实现
  * @version 1.0
- * @date 2023-05-07
+ * @date 2024-05-07
  *
  * @copyright Copyright (c) 2023
  *
