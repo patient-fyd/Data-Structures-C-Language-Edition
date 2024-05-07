@@ -14,8 +14,8 @@ add_executable(Data_Structures_C_Language_Edition
         src/list/sequenceStack.c
         include/list/sequenceQueue.h
         src/list/sequenceQueue.c
-        include/list/slnklist.h
-        src/list/slnklist.c
+        include/list/singleLinkedList.h
+        src/list/singleLinkedList.c
         include/list/hlnklist.h
         src/list/hlnklist.c
         src/testDemo/hlnklist_test.c

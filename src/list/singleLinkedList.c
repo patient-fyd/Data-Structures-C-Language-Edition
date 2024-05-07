@@ -1,11 +1,11 @@
-#include "../include/list/slnklist.h"
+#include "../include/list/singleLinkedList.h"
 
-node *init() {
+Node* SingleLinkedListInit() {
     return NULL;
 }
 
-void display(node *head) {
-    node *p = head;
+void SingleLinkedListDisplay(Node* head) {
+    Node* p = head;
     if (p == NULL) {
         printf("链表为空\n");
         return;
@@ -19,8 +19,8 @@ void display(node *head) {
     printf("\n");
 }
 
-node *find(node *head, int i) {
-    node *p = head;
+Node* SingleLinkedListFind(Node* head, int i) {
+    Node* p = head;
     int j = 1;
 
     // 检查输入合法性
@@ -33,13 +33,13 @@ node *find(node *head, int i) {
         j++;
     }
 
-    // 返回第i个节点或者NULL
+    // 返回第 i 个节点或者 NULL
     return (j == i) ? p : NULL;
 }
 
-node *insert(node *head, int i, datatype data) {
-    node *newNode = (node *)malloc(sizeof(node));
-    newNode->data = data;
+Node* SingleLinkedListInsert(Node* head, int i, ElementType element) {
+    Node* newNode = (Node*)malloc(sizeof(Node));
+    newNode->data = element;
 
     // 处理空链表情况
     if (head == NULL) {
@@ -54,29 +54,29 @@ node *insert(node *head, int i, datatype data) {
     }
 
     // 找到要插入位置的前一个节点
-    node *prev = find(head, i - 1);
+    Node* prev = SingleLinkedListFind(head, i - 1);
 
     // 如果插入位置合法
     if (prev != NULL) {
         newNode->next = prev->next;
         prev->next = newNode;
     } else {
-        printf("第%d个结点不存在\n", i);
+        printf("第 %d 个结点不存在\n", i);
     }
 
     return head;
 }
 
-node *delete(node *head, datatype data) {
+Node* SingleLinkedListDelete(Node* head, ElementType element) {
     // 创建哨兵节点
-    node sentinel = {0};
+    Node sentinel = {0};
     sentinel.next = head;
-    node *prev = &sentinel;
-    node *curr = head;
+    Node* prev = &sentinel;
+    Node* curr = head;
 
     // 遍历链表
     while (curr) {
-        if (curr->data == data) {
+        if (curr->data == element) {
             prev->next = curr->next;
             free(curr);
             break;
