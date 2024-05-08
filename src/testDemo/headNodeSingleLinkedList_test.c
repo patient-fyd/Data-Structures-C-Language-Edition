@@ -1,4 +1,4 @@
-#include "../../include/list/headNodeSingleLinkedList.h"
+#include "linear_tables/linked_storage/headNodeSingleLinkedList.h"
 
 void HeadNodeSingleLinkedList_test() {
     Node *head = HeadInit();

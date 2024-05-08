@@ -1,4 +1,4 @@
-#include "../include/list/headNodeSingleLinkedList.h"
+#include "linear_tables/linked_storage/headNodeSingleLinkedList.h"
 
 Node *HeadInit() {
     Node *head = (Node *) malloc(sizeof(Node));

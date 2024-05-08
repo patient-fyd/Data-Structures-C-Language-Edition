@@ -1,4 +1,4 @@
-#include "../include/list/sequenceQueue.h"
+#include "linear_tables/sequential_storage/sequenceQueue.h"
 
 
 void SequenceQueueInit(SequenceQueue* queue) {

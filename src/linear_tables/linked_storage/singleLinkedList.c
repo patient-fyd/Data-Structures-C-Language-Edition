@@ -1,4 +1,4 @@
-#include "../include/list/singleLinkedList.h"
+#include "linear_tables/linked_storage/singleLinkedList.h"
 
 Node* SingleLinkedListInit() {
     return NULL;

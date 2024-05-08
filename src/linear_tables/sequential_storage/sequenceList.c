@@ -1,4 +1,4 @@
-#include "list/sequenceList.h"
+#include "linear_tables/sequential_storage/sequenceList.h"
 
 void SequenceListInit(SequenceList* list) {
     list->size = 0;

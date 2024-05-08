@@ -1,4 +1,4 @@
-#include "../include/list/sequenceStack.h"
+#include "linear_tables/sequential_storage/sequenceStack.h"
 
 void SequenceStackTest() {
     SequenceStack stack;
